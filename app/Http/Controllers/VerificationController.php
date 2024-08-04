@@ -34,3 +34,5 @@ class VerificationController extends Controller
         return redirect()->route('verify.form')->with('error', 'Verification code is incorrect.');
     }
 }
+
+// Added for OTP verification using Sparrow SMS - backdated commit
